@@ -194,6 +194,33 @@ p {
 .navagation .nav a:visited {
   color: black;
 }
+@media (min-width: 0px) and (max-width: 500px) {
+  .navagation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .navagation h1 {
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .navagation div {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .navagation div a {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -273,4 +300,93 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .home .intro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .home .intro .headerpic {
+    width: 90%;
+  }
+  .home .intro h2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 95%;
+  }
+  .home .intro P {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 95%;
+    font-size: 1.5em;
+  }
+  .home .space-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .home .space-images .blast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .visit-planets {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  .home .visit-planets h3 {
+    width: 85%;
+    font-size: 2.5em;
+  }
+  .home .visit-planets p {
+    width: 85%;
+    font-size: 1.3em;
+  }
+  .home .walk {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border: 1px solid red;
+  }
+  .home .walk .walk-text h3 {
+    width: 100%;
+    font-size: 2.5em;
+    border: 1px solid red;
+  }
+  .home .walk .walk-text p {
+    width: 100%;
+    font-size: 1.3em;
+    border: 1px solid red;
+  }
 }
