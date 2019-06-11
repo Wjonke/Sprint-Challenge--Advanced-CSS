@@ -1,1 +1,64 @@
 // Navigation code here
+
+
+.navagation{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: @nav-bg;
+    border :2px solid @sea-shell;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    h2{
+        margin: 10px 0 20px 0;
+        font-size: 4em;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+ 
+        a{
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0 10px 0;
+        width: 83px;
+        }
+         a:visited{
+             color:black;
+         }
+    }
+}
+
+.navagation {
+    @media @phone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 90%;
+       h1{
+          display: inline;
+          margin: 0 auto;
+          text-align: center
+          
+          }
+      div{
+          display: flex;
+          margin: 0 auto;
+          width: 100%;
+          justify-content: center;
+          a{
+            display: flex;
+            margin: 0 auto;
+            width: 100%;
+            justify-content: center;
+          }
+      }
+    }
+   
+  }

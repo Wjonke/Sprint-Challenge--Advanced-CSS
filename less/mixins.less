@@ -1,1 +1,20 @@
 // Mixins Here
+
+.buttonstyle() {
+    background-color: black ;
+    border-radius: 5px;  
+    color:white;
+  }
+  .buttonformat() {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:90px;
+    height: 35px;
+    font-size: 1.7em;
+    font-weight: 600;
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+  }
